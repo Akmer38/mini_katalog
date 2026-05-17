@@ -1,2 +1,103 @@
-# mini_katalog
-Modern Flutter mini catalog app with product listing, category filtering, product detail pages, cart system, reviews, and REST API integration.
+# Mini Katalog Uygulaması
+
+Flutter ile geliştirilmiş modern bir e-ticaret katalog uygulaması.
+
+## 📱 Ekran Görüntüleri
+
+| Ana Sayfa | Ürün Detayı | Sepet |
+|-----------|-------------|-------|
+| Ürün grid listeleme | Görsel carousel + detay | Miktar düzenleme |
+
+## ✨ Özellikler
+
+- **Ana Sayfa** – GridView ile ürün listeleme, infinite scroll, shimmer loading
+- **Arama** – Gerçek zamanlı API arama
+- **Kategori Filtresi** – Yatay scroll kategori chip'leri
+- **Ürün Detayı** – Görsel PageView, indirim gösterimi, adet seçici
+- **Sepet** – Ürün ekleme/çıkarma, miktar güncelleme, toplam hesaplama
+- **Modern UI** – Sade & temiz tasarım, animasyonlar, SnackBar bildirimleri
+
+## 🛠 Kullanılan Teknolojiler
+
+- **Flutter SDK** – 3.x
+- **Dart** – Null Safety
+- **http** – API istekleri
+- **cached_network_image** – Görsel önbellekleme
+- **shimmer** – Loading skeleton animasyonu
+- **DummyJSON API** – `https://dummyjson.com/products`
+
+## 📁 Proje Yapısı
+
+
+lib/
+├── main.dart                  # Uygulama giriş noktası
+├── models/
+│   ├── product.dart           # Ürün modeli (fromJson)
+│   └── cart_item.dart         # Sepet kalemi modeli
+├── services/
+│   ├── product_service.dart   # API servisi
+│   └── cart_service.dart      # Sepet state yönetimi (Singleton)
+├── screens/
+│   ├── home_screen.dart       # Ana sayfa
+│   ├── product_detail_screen.dart  # Ürün detay
+│   └── cart_screen.dart       # Sepet ekranı
+├── widgets/
+│   ├── product_card.dart      # Ürün kartı widget
+│   └── product_skeleton.dart  # Loading skeleton
+└── theme/
+    └── app_theme.dart         # Uygulama teması
+
+
+## 🚀 Çalıştırma Adımları
+
+### Gereksinimler
+- Flutter SDK 3.0+
+- Android Studio veya VS Code
+- Android Emulator veya fiziksel cihaz
+
+### Kurulum
+
+```bash
+# Repoyu klonla
+git clone https://github.com/KULLANICI_ADIN/mini_katalog.git
+
+# Klasöre gir
+cd mini_katalog
+
+# Bağımlılıkları yükle
+flutter pub get
+
+# Uygulamayı çalıştır
+flutter run
+```
+
+### Build
+
+```bash
+# APK oluştur
+flutter build apk --release
+```
+
+## 📦 Bağımlılıklar (pubspec.yaml)
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+```
+
+## 🎓 Öğrenme Kazanımları
+
+- ✅ Widget ağacı ve UI mantığı
+- ✅ Stateless & Stateful widget kullanımı
+- ✅ Navigator.push / pop ile sayfa geçişleri
+- ✅ Route Arguments ile veri taşıma
+- ✅ HTTP paketi ile REST API entegrasyonu
+- ✅ Model sınıfı & fromJson/toJson
+- ✅ ListView.builder & GridView.builder
+- ✅ Singleton pattern ile state yönetimi
+- ✅ Async/await ve Future kullanımı
+- ✅ CachedNetworkImage ile görsel yönetimi
