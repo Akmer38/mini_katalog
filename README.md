@@ -68,13 +68,12 @@
 **API:** [DummyJSON](https://dummyjson.com/products) — `https://dummyjson.com/products`
 
 ---
-=======
+
 - **Flutter SDK** – 3.32.8 
 - **Dart** – Null Safety
 - **http** – API istekleri
 - **cached_network_image** – Görsel önbellekleme
 - **shimmer** – Loading skeleton animasyonu
-- **DummyJSON API** – `https://dummyjson.com/products`
 
 
 ## 📁 Proje Yapısı
@@ -111,7 +110,6 @@ lib/
 ---
 
 ## 📦 Bağımlılıklar
-=======
 - Flutter SDK 3.32.8 
 - Android Studio veya VS Code
 - Android Emulator veya fiziksel cihaz
