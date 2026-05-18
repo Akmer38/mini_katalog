@@ -80,22 +80,22 @@
 
 ```
 lib/
-├── main.dart                       # Uygulama giriş noktası
+├── main.dart                      
 ├── models/
-│   ├── product.dart                # Ürün modeli (fromJson)
-│   └── cart_item.dart              # Sepet kalemi modeli
+│   ├── product.dart               
+│   └── cart_item.dart            
 ├── services/
-│   ├── product_service.dart        # API servisi
-│   └── cart_service.dart           # Sepet state yönetimi (Singleton)
+│   ├── product_service.dart    
+│   └── cart_service.dart          
 ├── screens/
-│   ├── home_screen.dart            # Ana sayfa
-│   ├── product_detail_screen.dart  # Ürün detay ekranı
-│   └── cart_screen.dart            # Sepet ekranı
+│   ├── home_screen.dart          
+│   ├── product_detail_screen.dart 
+│   └── cart_screen.dart          
 ├── widgets/
-│   ├── product_card.dart           # Ürün kartı widget
-│   └── product_skeleton.dart       # Loading skeleton
+│   ├── product_card.dart          
+│   └── product_skeleton.dart     
 └── theme/
-    └── app_theme.dart              # Uygulama teması
+    └── app_theme.dart            
 ```
 
 ## 🚀 Kurulum
