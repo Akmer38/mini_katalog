@@ -9,17 +9,32 @@ Flutter ile geliştirilmiş modern bir e-ticaret katalog uygulaması.
 <img width="426" height="863" alt="Ekran görüntüsü 2026-05-17 213014" src="https://github.com/user-attachments/assets/df15ccfe-3875-4963-93da-5f5a5374e552" />
 
 
+
+
 | Ürün Detayı |
 
+
+
 <img width="490" height="1051" alt="Ekran görüntüsü 2026-05-18 000908" src="https://github.com/user-attachments/assets/5640a720-29bc-4bcf-8afe-5afe9265a7bb" />
+
+
 
 <img width="471" height="1020" alt="Ekran görüntüsü 2026-05-18 000918" src="https://github.com/user-attachments/assets/cecb3138-c1b1-4bed-a49d-af8728ea7ae4" />
 
 
 
+
+
 | Sepet |
+
+
 <img width="470" height="1031" alt="Ekran görüntüsü 2026-05-18 000955" src="https://github.com/user-attachments/assets/ccc1a17c-becf-470d-8f1d-371167eb5d74" />
+
+
 <img width="477" height="1015" alt="Ekran görüntüsü 2026-05-18 001008" src="https://github.com/user-attachments/assets/88ce2082-be98-45a4-8f3c-9a84c190cec3" />
+
+
+
 <img width="465" height="1030" alt="Ekran görüntüsü 2026-05-18 001018" src="https://github.com/user-attachments/assets/071b9960-d095-4343-9e18-12cdaebb0adc" />
 
 
