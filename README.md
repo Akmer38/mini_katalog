@@ -11,7 +11,7 @@
   Modern Flutter mimarisi ile geliştirilmiş, şık tasarımlı mini e-ticaret katalog uygulaması.
 </p>
 
-<<<<<<< HEAD
+
 ---
 
 ## 📸 Ekran Görüntüleri
@@ -55,7 +55,7 @@
 
 ---
 
-<<<<<<< HEAD
+
 ## 🛠️ Kullanılan Teknolojiler
 
 | Paket | Versiyon | Açıklama |
@@ -99,32 +99,14 @@ lib/
     └── app_theme.dart              # Uygulama teması
 ```
 
----
-
 ## 🚀 Kurulum
 
 ### Gereksinimler
-<<<<<<< HEAD
+
 
 - Flutter SDK `3.32.8`
 - Android Studio veya VS Code
 - Android Emulator veya fiziksel cihaz
-
-### Adımlar
-
-```bash
-# Repoyu klonla
-git clone https://github.com/kullaniciadi/mini_katalog.git
-
-# Proje klasörüne gir
-cd mini_katalog
-
-# Bağımlılıkları yükle
-flutter pub get
-
-# Uygulamayı çalıştır
-flutter run
-```
 
 ---
 
@@ -163,5 +145,3 @@ dependencies:
 - ✅ CachedNetworkImage ile görsel yönetimi
 
 ---
-
-> Bu proje eğitim ve portföy amaçlı geliştirilmiştir. Gerçek bir e-ticaret altyapısı içermez.
