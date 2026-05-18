@@ -75,7 +75,7 @@
 - **cached_network_image** – Görsel önbellekleme
 - **shimmer** – Loading skeleton animasyonu
 - **DummyJSON API** – `https://dummyjson.com/products`
->>>>>>> 511fba5f494d626ff8cbed986c9878094d51ff22
+
 
 ## 📁 Proje Yapısı
 
@@ -118,7 +118,6 @@ lib/
 
 
 ## 📦 Bağımlılıklar (pubspec.yaml)
->>>>>>> 511fba5f494d626ff8cbed986c9878094d51ff22
 
 ```yaml
 dependencies:
