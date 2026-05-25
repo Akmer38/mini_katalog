@@ -115,6 +115,22 @@ lib/
 - Android Emulator veya fiziksel cihaz
 
 
+```bash
+# Repoyu klonla
+git clone https://github.com/Akmer38/mini_katalog.git
+ 
+# Proje klasörüne gir
+cd mini_katalog
+  
+# Uygulamayı çalıştır
+flutter pub get
+flutter run
+```
+ 
+---
+ 
+
+
 ## 📦 Bağımlılıklar (pubspec.yaml)
 
 ```yaml
