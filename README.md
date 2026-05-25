@@ -117,7 +117,7 @@ lib/
 
 
 ## Projeyi Çalıştırma Adımları
-``bash
+```bash
 # Repoyu klonla
 git clone https://github.com/Akmer38/mini_katalog.git
  
@@ -130,7 +130,6 @@ flutter run
 ```
  
 ---
- 
 
 
 ## 📦 Bağımlılıklar (pubspec.yaml)
