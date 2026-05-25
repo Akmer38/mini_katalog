@@ -115,7 +115,9 @@ lib/
 - Android Emulator veya fiziksel cihaz
 
 
-```bash
+
+## Projeyi Çalıştırma Adımları
+``bash
 # Repoyu klonla
 git clone https://github.com/Akmer38/mini_katalog.git
  
